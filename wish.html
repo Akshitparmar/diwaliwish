@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {background-color: powderblue;text-align: center;}
+        h1   {color: blue;font-size:100px;}
+        p    {color: red;}
+        button {
+            font-size:100px;
+            border-radius:10px ;
+            padding: 20px;
+            margin-top: 10%;;
+
+        }
+        </style>
+<body>
+
+<h1 >Diwali wish for you </h1>
+
+
+<button onclick="myFunction()">Your wish click it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let favDrink = prompt("please enter your first name in small");
+  switch(favDrink) {
+    case "hemant":
+      text = "happy diwali bhai ko trupti milegi jald hi";
+      break;
+    case "pranav":
+      text = "happy diwali pixel and mg gloster are good choice jald hi sara loss cover hojyega";
+      break;
+    case "nalin":
+      text = "happy diwali stoner Be high!! but don't forget the rituals";
+      break;
+    case "devansh":
+      text ="happy diwali bhai jayda mat soyiyo miljyegi job !!";
+    case "lakshay":
+      text="happy diwali bhai ko jald hi milega tumhe tumhara pyar";
+    case "shubham":
+      text="happy diwali bhai ko bhai jald hi kam honge tumhare dukh aur paisa ayega";
+     case "bhaskar":
+     text="happy diwali bhai ko itna roya mat kar bsdk jald hi tum iphone loge";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
